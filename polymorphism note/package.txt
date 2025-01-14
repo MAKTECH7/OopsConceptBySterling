@@ -1,0 +1,16 @@
+public 
+1 : the excess level of public modifier is everywhere
+2 : we can be excessed from within a class outside the class within a package and outside the package
+
+protected
+1: the excess level of protected modifier is within a package and outside the package through child classes
+2: if we do not make the child class cannot be excess from outside the package
+
+default 
+1: the excess level of default modifier only within the package
+2: we cannot be excessed from outside the package 
+3: if we do not specify the any excess level then it will be the default 
+
+private
+1: the excess level of private modifier is only within the class
+2: we cannot be excessed from outside the class

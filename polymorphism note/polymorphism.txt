@@ -1,0 +1,78 @@
+polymorphism : one name with multiple form is known as polymorphism
+or 
+poly means many morphism means forms so polymorphism is also referred as many forms
+
+there are two types of 
+polymorphism
+
+1 compile time 
+polymorphism
+or
+early binding
+or 
+eager binding
+or
+static 
+polymorphism
+
+
+2 runtime polymorphism
+or
+late binding
+or 
+dynamic binding
+or 
+dynamic polymorphism
+or 
+lazy binding
+
+uses of polymorphism
+1 polymorphism in array
+2 polymorphism in method arguments
+3 polymorphism in method return type
+
+
+dynamic polymorphism :
+to achieve dynamic polymorphism we have concept of method Overriding 
+
+method Overriding : 
+
+1 write a method  in a child class (with same signature) that is already available in a parent class is known as method overriding
+
+rules for method overriding
+ 
+1 applies only on inheritance
+2 method name must be same
+3 method arguments must be same
+4 method no of arguments must same
+5 method type of argument must be same
+6 method order of argument must be same
+7 method return type must be same but from jdk 1.5 co variant return type is possible
+8 both method must be non static
+9 parent class method is known as overridden method
+10 child class method is known as overriding method 
+11 static method cannot be overridden but
+if we do so then that concept is known as methodhiding method hiding is static polymorphism 
+12 we can increase the excessibility of overriding method but can't decrease it and it is recommended have same excess modifier
+13 private method cannot be overridden because more restricted modifier is not allow.
+14 Final method cannot be overridden 
+15 instance type determines which overridden method will be called at runtime ( not reference variable type)
+16 method signature must be same but with different body 
+17 it is mandatory to override abstract method 
+18 from JDK 1.5 we can write @Override annotation just before writing the overriding method 
+19 method overriding is a dynamic polymorphism 
+20 we cannot override the constructor 
+
+________________________________________________
+Method Overriding and exception handling :
+1 if overridden method does not throw an exception then Overriding method can only throw unchecked exception, throwing a checked exception will raise compile time error.
+
+2 if Overridden method does throw an exception then Overriding method can only throw the same exception or subclass of that exception. If we throw the parent exception of that exception then compilation error will be raised.
+
+NOTE : there is no issue if the Overriding method is not throwing any exception.
+
+______________________________________________
+
+
+21 we can Override the synchronized method 
+22 we can override scriptfp(deprecated keyword) method also.

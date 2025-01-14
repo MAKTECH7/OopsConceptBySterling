@@ -1,0 +1,20 @@
+Co variant return type :
+the return type of overriding method(child class method) can be the child of the return type of overridden method (parent class method).is known as co-variant return type.
+
+co-variant return type is only applicable for reference datatype
+
+for example:
+
+public class Parent{
+
+ public Object get(){   //  overridden method
+
+return null;
+}
+}
+
+class child extends Parent{
+public String get(){   //overriding method       
+return null;
+}
+}
