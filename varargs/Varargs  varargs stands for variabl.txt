@@ -1,0 +1,14 @@
+Varargs : varargs stands for variable length arguments
+
+varargs stands for variable arguments
+introduced in jdk 1.5 represented by ... 
+it is thee best over come of method overloading
+it is internaly immplemented on the concept of array
+
+internally working as array
+... -> Ellipses or dot dot dot
+
+rules for varargs:
+1 varargs parameters must be the last parameter
+2  we can use normal parameters with varargs parameters but varargs must be on the last place
+3 we can use 1 varargs with one method and that must be on a last place
