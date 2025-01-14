@@ -1,0 +1,38 @@
+final keyword is used with a class, method and attribute
+
+final keyword with class : 
+  final class does not have children
+  
+final class ke bacche nhi hote
+
+public class Test extends String{
+}  // this is compilation error because final class can not be inherit
+java.lang package is mostly final class 
+
+for example for method:
+
+public class A{
+
+public final void test(){
+
+}
+}
+class B extends A{
+public void test(){
+// override method
+}
+
+}
+
+final method cannot be overridden 
+
+for variable ::
+
+public class A{
+
+final int a = 9;
+
+} 
+
+if you use final keyword with attribute it will become a constant
+
