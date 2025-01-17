@@ -1,0 +1,23 @@
+Abstract Keyword :
+
+1-> Concrete method : method having body is known as concrete method
+2-> concrete class : A class that contains only concrete methods
+3-> Abstract method : A method that does not have any body and declare with a keyword abstract 
+4-> Abstract class : A class that contains concrete method as well as abstract method and declare with a    	             keyword abstract
+5-> Abstract is a keyword in java and it is used with a class and a method 
+
+6-> Abstract is a non excess modifier.
+
+7-> concrete class cannot hold the abstract method
+
+8-> Abstract class cannot be instantiated ( we cannot create the object of abstract class) but we can create the reference variable of abstract class
+
+9->(method overriding compulsory krna ho tohh parent me abstract krdo method ko)
+
+
+Benefits of abstract class or abstract method
+
+-> it is mandatory to override abstract method
+-> parent will enforce child to implement all the abstract method
+-> child has to mandatorily Override abstract method from parent class
+-> this will achieve polymorphism
