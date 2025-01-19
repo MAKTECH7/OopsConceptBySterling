@@ -1,0 +1,24 @@
+class Name                                                Interface Name
+
+1. meaningful                                            1. meaningful
+2. camel case                                            2. camel case
+3. Noun                                                  3. Adjective
+
+
+
+
+
+ArrayList
+LinkedList
+String
+StringBuffer                                    
+Serializable                                   able
+Cloneable                                      ible ( is the example of interface)
+RandomAccess
+StringTokenizer
+Runnable
+CharSequence
+
+
+question : what are the difference b/w concrete class,  abstract class and interface?
+
