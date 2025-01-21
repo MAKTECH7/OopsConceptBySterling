@@ -1,0 +1,51 @@
+multiple Interface:
+
+
+java support the concept of multiple interface
+
+for example 
+
+public interface SocialWorker{
+public void helptoOthers():
+
+}
+
+public interface Richman extends SocialWorker,Cloneable{
+
+public abstract void party();
+abstract void charity();
+void tax();
+
+}
+
+
+and one class may implement multiple interfaces by the help of implements keyword
+
+
+for example
+
+public class Bussinessman implements RichMan, SocialWorkers{
+@Override
+public void tax(){
+
+}
+
+@Override
+public void  Charity(){
+
+}
+
+@Override
+public void party(){
+
+}
+
+@Override
+public void helpToOthers(){
+
+}
+}
+
+one class can extend parent class and at the same time implement multiple interfaces
+
+Note: interface connot implement another interface they can extends only

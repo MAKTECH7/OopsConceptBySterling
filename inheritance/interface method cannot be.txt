@@ -1,0 +1,23 @@
+interface method cannot be : till jdk 1.7
+1. static
+2. final
+3. strictfp
+4. synchronized
+5. native
+6. private
+7. protected
+8. default 
+9. cannot have body
+
+Interface method must be 
+1: public
+2: abstract
+
+
+interface attributes(variables) -> by default public,static and final
+for ex -> public interface Readable{
+	public static final int a; // from javap
+
+	int a=0; ( means we need to assign value we can't take as int a; only)
+and interface attribute cannot be private and protected
+}
