@@ -1,0 +1,37 @@
+public interface Mobile{
+/*
+Attributes:
+
+	all the attributes of interface must be 
+	1.public
+	2.static
+	3.final
+	4.must be initialized
+
+The attributes of interface cannot be 
+	1.non static
+	2.transient
+	3.private
+	4.protected
+	5.default
+	6.non-final
+	7. cannot have variable
+
+
+Advantages of Interface 
+
+definition : 
+	abstract view of a class  ( ghr ka naksha)
+	
+
+data abstraction achieve llike hiding the implementation and shows only necessary details
+
+
+till jdk 1.7 finish here
+
+
+
+
+
+
+}

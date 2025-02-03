@@ -1,0 +1,23 @@
+Switch case
+
+1. Decision Making 
+2. Iterational Statement
+3. Branching:
+		break, continue, return 
+	1. Multi Way Branching Statement
+
+->Switch case is a multiway branching statement.
+
+switch, case, break, default are keyword in java
+
+
+switch(int|char|String|enum){
+
+case value1:
+
+case value2:
+
+case value3:
+
+default
+}
